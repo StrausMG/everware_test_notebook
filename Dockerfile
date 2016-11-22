@@ -1,2 +1,2 @@
-FROM strausmg/anaconda
+FROM everware/base
 MAINTAINER Yuriy Gorishniy
