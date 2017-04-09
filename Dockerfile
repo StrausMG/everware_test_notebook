@@ -3,7 +3,7 @@ MAINTAINER Yuriy Gorishniy
 
 USER root
 
-RUN conda install --yes numpy scipy scikit-learn matplotlib pandas
+RUN conda install --yes pandas
 
 USER jupyter
 WORKDIR /home/jupyter/
